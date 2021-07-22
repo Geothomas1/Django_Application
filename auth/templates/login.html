@@ -3,8 +3,8 @@
 {%block content%}
 {% csrf_token %}
 <div style="width: 500px;padding-left:150px;padding-top:200px">
-    <form>
-
+    <form method="POST">
+        {% csrf_token %}
         <h1>Login Page</h1>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
