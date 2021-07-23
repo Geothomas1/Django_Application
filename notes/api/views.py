@@ -15,7 +15,7 @@ def getRoute(request):
             'place': 'Kottayam'
         },
         {
-            'name': 'Manuel Rober',
+            'name': 'Manuel Robert',
             'age': '23',
             'place': 'Eranakulam'
         },
